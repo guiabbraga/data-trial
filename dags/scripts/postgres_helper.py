@@ -10,8 +10,7 @@ engine = create_engine(
 def run_sql(create_sql):
     with engine.connect() as conn:
         conn.execute(text(create_sql))
-        conn.commit()
-        conn.close()
+
 
 def upload_overwrite_table(df, table_name):
     # Upload DataFrame to PostgreSQL
