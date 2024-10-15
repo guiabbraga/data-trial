@@ -2,7 +2,6 @@ apache-airflow-providers-apache-kafka
 kafka-python
 pyspark
 pyhive
-psycopg2-binary
 celery
 redis
 requests
@@ -11,5 +10,6 @@ pyarrow
 fastparquet
 great_expectations
 sqlalchemy
+psycopg2-binary
 nltk
 vaderSentiment
